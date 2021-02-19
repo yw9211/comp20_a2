@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Caffenate - Home</title>
+  <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    .main {
+      background-image: url(main.jpg);
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      padding-top: 5%;
+    }
+    
+    h1 {
+      font-family: 'Big Shoulders Inline Display', cursive;
+      text-shadow: 0 0 5px black;
+      color: #A13D2D;
+      font-size: 150px;
+      padding-left: 5%;
+      opacity: 80%;
+      animation-name: slogan;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    @keyframes slogan {
+      0% {
+        color: #A13D2D;
+      }
+      50% {
+        color: #DBC39A;
+      }
+      100% {
+        color: white;
+      }
+      
+    }
+    
+    .review {
+      background-color: white;
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+      color: #91602f;
+      padding-top: 8%;
+    }
+    
+    h2 {
+      padding-top: 2%;
+      text-transform: uppercase;
+      font-size: 25px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img src="logo.png" alt="Caffenate Logo" class="logo"/>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav> 
+  </div> 
+  <div class="main">
+    <h1>Drink More</h1>
+    <h1>Learn More</h1>
+    <h1>Live Less</h1>
+  </div>
+  <div class="review">
+    <h2>What Our Customers Are Saying</h2>
+    <img src="stars.png" alt="five stars" style="height:10%; padding-top: 3%; padding-bottom: 2%;"/>
+    <h3>“When preparing for exams, studying comes first, Caffenate is a close second”</h3>
+    <h2 style="font-size: 15px;">John Snow</h2>
+  </div>
+  <div class="footer">
+    <img src="logo.png" alt="Caffenate Logo" class="logo"/>
+    &copy; 2021 Caffenate All Rights Reserved Not Really
+  </div>
+</body>
+</html>
